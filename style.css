@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow: hidden;
+}
+
+.sky{
+    height: 100vh;
+    width: 100vmax;
+    background-image: url(./images/background.jpg);
+    /* z-index: 1; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    }
+
+.trees{
+    height: 70vh;
+    width: 100vmax;
+    position: absolute;
+    background-image: url(./images/trees.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom:20vh;
+}
+.track{
+    height: 35vh;
+    width: 500vw;
+    background-image: url(./images/track.png);  
+    position: absolute;
+    background-repeat:repeat-x;
+    background-size: cover;
+    margin-top: 70vh;
+    animation: trackMove linear 2s infinite;
+
+}
+.car{
+    
+    height: 20vh;
+    width: 80vh;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-image: url(./images/car_body.png);
+    background-size: cover;
+    left: 40vh;
+    top: 50vh;
+}
+
+.wheelAni1{
+    animation: shake1 linear 2.5s infinite;
+ 
+}
+.wheel1 img{
+    width: 12.6vh;
+    top: 10vh;
+    left: 11vh;
+    position: relative;
+    animation: wheelRotate linear .10s infinite;
+   
+
+}
+.wheelAni2{
+    animation: shake2 linear 2s infinite;
+}
+.wheel2 img{
+    width: 11.5vh;
+    top: -2.5vh;
+    left: 51.5vh;
+    position: relative;
+    animation: wheelRotate linear .10s infinite;
+
+}
+
+@keyframes wheelRotate {
+    100%{
+        transform: rotate(360deg);
+    }
+    
+}
+@keyframes trackMove {
+    100%{
+        transform:translateX(-500vh)
+    }
+    
+}
+/* @keyframes shake {
+    0%{
+        transform:translatey(-1vh)
+    }
+    50%{
+        transform:translatey(1vh)
+
+    }
+    100%{
+        transform:translatey(-1vh)
+
+    }
+    
+} */
+@keyframes shake1 {
+    0%{
+        transform:translatey(-.5vh)
+    }
+    50%{
+        transform:translatey(.5vh)
+
+    }
+    100%{
+        transform:translatey(-.5vh)
+
+    }
+    
+}
+@keyframes shake2 {
+    0%{
+        transform:translatey(.5vh)
+    }
+    50%{
+        transform:translatey(-.5vh)
+
+    }
+    100%{
+        transform:translatey(.5vh)
+
+    }
+    
+}
