@@ -66,7 +66,7 @@ body{
 }
 .wheel2 img{
     width: 5.6vw;
-    top: -1.6vw;
+    top: -1.8vw;
     left: 22.6vw;
     position: relative;
     animation: wheelRotate linear .10s infinite;
