@@ -101,28 +101,28 @@ body{
 } */
 @keyframes shake1 {
     0%{
-        transform:translatey(-.5vh)
+        transform:translatey(-.2vh)
     }
     50%{
-        transform:translatey(.5vh)
+        transform:translatey(.2vh)
 
     }
     100%{
-        transform:translatey(-.5vh)
+        transform:translatey(-.2vh)
 
     }
     
 }
 @keyframes shake2 {
     0%{
-        transform:translatey(.5vh)
+        transform:translatey(.2vh)
     }
     50%{
-        transform:translatey(-.5vh)
+        transform:translatey(-.2vh)
 
     }
     100%{
-        transform:translatey(.5vh)
+        transform:translatey(.2vh)
 
     }
     
