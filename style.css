@@ -7,8 +7,8 @@ body{
 }
 
 .sky{
-    height: 100vh;
-    width: 100vmax;
+    height: 35vw;
+    width: 100%;
     background-image: url(./images/background.jpg);
     /* z-index: 1; */
     background-size: cover;
@@ -17,8 +17,8 @@ body{
     }
 
 .trees{
-    height: 70vh;
-    width: 100vmax;
+    height: 35vw;
+    width: 100%;
     position: absolute;
     background-image: url(./images/trees.png);
     background-size: cover;
@@ -26,26 +26,26 @@ body{
     margin-bottom:20vh;
 }
 .track{
-    height: 35vh;
+    height: 20vw;
     width: 500vw;
     background-image: url(./images/track.png);  
     position: absolute;
     background-repeat:repeat-x;
     background-size: cover;
-    margin-top: 70vh;
+    margin-top: 35vw;
     animation: trackMove linear 2s infinite;
 
 }
 .car{
     
-    height: 20vh;
-    width: 80vh;
+    height: 10vw;
+    width: 35vw;
     position: absolute;
     background-repeat: no-repeat;
     background-image: url(./images/car_body.png);
     background-size: cover;
-    left: 40vh;
-    top: 50vh;
+    left: 25vw;
+    top: 26vw;
 }
 
 .wheelAni1{
@@ -53,9 +53,9 @@ body{
  
 }
 .wheel1 img{
-    width: 12.6vh;
-    top: 10vh;
-    left: 11vh;
+    width: 6vw;
+    top: 4.3vw;
+    left: 4.6vw;
     position: relative;
     animation: wheelRotate linear .10s infinite;
    
@@ -65,9 +65,9 @@ body{
     animation: shake2 linear 2s infinite;
 }
 .wheel2 img{
-    width: 11.5vh;
-    top: -2.5vh;
-    left: 51.5vh;
+    width: 5.6vw;
+    top: -1.6vw;
+    left: 22.6vw;
     position: relative;
     animation: wheelRotate linear .10s infinite;
 
